@@ -1,0 +1,25 @@
+{
+    "_class_name": "PixArtAlphaPipeline",
+    "_diffusers_version": "0.22.0.dev0",
+    "_name_or_path": "diffusers/PixArt-XL-2-512x512",
+    "scheduler": [
+      "diffusers",
+      "DPMSolverMultistepScheduler"
+    ],
+    "text_encoder": [
+      "transformers",
+      "T5EncoderModel"
+    ],
+    "tokenizer": [
+      "transformers",
+      "T5Tokenizer"
+    ],
+    "transformer": [
+      "diffusers",
+      "Transformer2DModel"
+    ],
+    "vae": [
+      "diffusers",
+      "AutoencoderKL"
+    ]
+  }
