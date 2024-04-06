@@ -4,6 +4,13 @@
 
 ## 1. Install helper
 
+**Please check your nvcc version and cuda version >= 11.7**
+```bash
+nvcc -V
+nvidia-smi
+```
+
+**environment building**
 ```bash
 # create a new conda environment
 conda activate --name latte python=3.9
