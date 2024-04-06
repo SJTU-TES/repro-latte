@@ -1,0 +1,15 @@
+*.DS_Store
+*__pycache__
+*wandb/*
+*.gz
+**/__pycache__/*
+__pycache__/
+**/__pycache__/**
+pretrained/t2v.pt
+pretrained/vae_temporal_decoder/diffusion_pytorch_model.safetensors
+pretrained/vae/diffusion_pytorch_model.safetensors
+pretrained/tokenizer/spiece.model
+pretrained/text_encoder/model-00001-of-00004.safetensors
+pretrained/text_encoder/model-00002-of-00004.safetensors
+pretrained/text_encoder/model-00003-of-00004.safetensors
+pretrained/text_encoder/model-00004-of-00004.safetensors

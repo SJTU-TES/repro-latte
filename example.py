@@ -2,8 +2,8 @@ from model import LatteT2V
 from t2v import Text2Video
 
 
-pretrained_model_path = "sjtusora/pretrained/latte"
-video_length = 16
+pretrained_model_path = "pretrained"
+
 text_prompt = [
     'Yellow and black tropical fish dart through the sea.',
     'An epic tornado attacking above aglowing city at night.',
@@ -16,12 +16,12 @@ text_prompt = [
 transformer_model = LatteT2V.from_pretrained_2d(
     pretrained_model_path, 
     subfolder="transformer", 
-    video_length=video_length
+    video_length=16
 )
 
 t2v_model = Text2Video(
     pretrained_model_path=pretrained_model_path,
-    t2v_ckpt_path="sjtusora/pretrained/latte/t2v.pt",
+    t2v_ckpt_path="pretrained/t2v.pt",
     transformer_model=transformer_model,
     fp16=True
 )
