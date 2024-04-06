@@ -40,7 +40,7 @@ pip install sentencepiece==0.2.0
 
 ### 2.1 Download Pre-trained Files
 
-Download Latte's pre-trained files [here]().
+Download Latte's pre-trained files [here](https://huggingface.co/maxin-cn/Latte).
 
 ### 2.2 Just try it!
 
