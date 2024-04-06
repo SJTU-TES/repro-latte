@@ -49,3 +49,7 @@ Modify the text prompts in ``example.py`` and then run the following command.
 ```bash
 CUDA_VISIBLE_DEVICES=0 python example.py
 ```
+
+### 2.3 Reproducibility
+
+<img src="reproducibility/latte.gif" width="80%" alt="" />
